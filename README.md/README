@@ -1,0 +1,12 @@
+# IRIS CLASSIFER (decision tree)
+
+## overview
+end-to-end ml example from digital marketing mystery module -> builds a decision tree classifier on the classic iris dataset using scikit-learn
+
+## quick start
+```bash
+gitclone https://github.com/ashleyclennell92/iris-clssifier.git
+cd iris- classifier
+python -m venv venv && source venv/bin/activiate
+pip install -r requirements.txt
+python src/train.py
